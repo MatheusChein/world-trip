@@ -1,0 +1,20 @@
+.swiperButton {
+  color: #ECC94B;
+  font-size: 4rem;
+  align-self: center;
+  position: absolute;
+  transition: 0.2s;
+
+  &:hover {
+    cursor: pointer;
+    filter: brightness(0.8);
+  }
+}
+
+.swiperButtonPrev {
+  left: 2rem
+}
+
+.swiperButtonNext {
+  right: 2rem;
+}

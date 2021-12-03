@@ -1,0 +1,28 @@
+div.swiper-button-prev, div.swiper-button-next {
+  color: #ECC94B;
+  position: absolute;
+  transition: 0.2s;
+}
+
+div.swiper-button-prev:hover, div.swiper-button-next:hover {
+  filter: brightness(0.8);
+}
+
+div.swiper-button-prev {
+  left: 3rem;
+}
+
+div.swiper-button-next {
+  right: 3rem;
+}
+
+span.swiper-pagination-bullet {
+  background-color: #999;
+  opacity: 1;
+  height: 0.8rem;
+  width: 0.8rem;
+}
+
+span.swiper-pagination-bullet-active {
+  background-color: #ECC94B;
+}
