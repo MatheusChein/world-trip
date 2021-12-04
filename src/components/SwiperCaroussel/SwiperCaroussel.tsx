@@ -23,7 +23,7 @@ export function SwiperCaroussel() {
         modules={[Navigation, Pagination, Scrollbar]}
         slidesPerView={1}
         navigation
-        pagination
+        pagination={{ clickable: true}}
         scrollbar={{ draggable: true }}
         onSwiper={handleOnSwiper}
       >
